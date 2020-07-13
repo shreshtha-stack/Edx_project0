@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
+    <style>
+        .topright {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 18px;
+        }
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://www.google.com/advanced_search"  method="GET">
+
+        <label for="one">Find pages with… “all these words:”</label>
+        <input type="search" id="one" name="as_q"> <br>   
+        
+        <label for="two">Find pages with… “this exact word or phrase:”</label>
+        <input id="two" type="search" name="as_epq">  <br>      
+        
+        <label for="three">Find pages with… “any of these words:”</label>
+        <input id="three" type="search" name="as_oq"> <br>       
+        
+        <label for="four">Find pages with… “none of these words:”</label>
+        <input id="four" type="search" name="as_eq"> 
+
+            <input type="submit" value="Advance Search">
+        </p>
+      
+      
+      </form>
+      <div class="topright">
+          <a href="google_search.html">Google Search</a>
+
+      </div>
+
+    
+</body>
+</html>

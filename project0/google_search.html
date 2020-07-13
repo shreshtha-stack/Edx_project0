@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hello</title>
+    <style>
+        .topright {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 18px;
+        }
+        p {
+        text-align:center
+        }
+        .nav {
+            width: 30%;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);;
+            }
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <form action="https://www.google.com/search"  method="GET">
+        <p>
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+        </p>
+        <p>
+            
+        <input class="nav" type="search" name="q">        
+        </p> <br>        
+        <p>
+        <input type="submit" value="Google It">
+        <button type="submit" id="random-btn">
+            <input type="hidden" name="gfns" value="1">
+            <input type="hidden" name="sourceid" value="navclient">
+            I am Feeling Lucky
+        </button>
+        </p>
+
+       
+      </form>
+     
+      <div class="container">
+          <div class="topright">
+              <li><a href="image_search.html">Image search</a></li> 
+              <li><a href="advance_search.html">Advance search</a></li>
+
+          </div>
+
+
+      </div>
+    
+</body>
+</html>
